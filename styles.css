@@ -70,7 +70,7 @@ th {
 
 img {
     width: auto;
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
 }
 
@@ -121,14 +121,6 @@ img {
     height: 150px;
     right: 150px;
     top: 30px;
-}
-
-.mountain {
-    margin: 0 auto;
-    z-index: 2;
-    object-fit: contain;
-    height: 200px;
-    width: 200px;
 }
 
 
