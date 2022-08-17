@@ -230,6 +230,11 @@ th {
         text-align: center;
     }
 
+    .mountain {
+        width: 350px;
+        height: 250px;
+    }
+
     #programming-gif, #cs-gif, #music-gif {
         float: none;
         margin: 0  auto;
