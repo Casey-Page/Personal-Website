@@ -125,7 +125,6 @@ img {
 }
 
 .mountain {
-    position: relative;
     width: 500px;
     height: 400px;
     z-index: 2;
