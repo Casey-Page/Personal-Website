@@ -1,4 +1,6 @@
 body {
+    position: relative;
+    width: 100%;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -67,16 +69,18 @@ th {
     padding-bottom: 5px;
 }
 
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
 .top-container {
     /* make images relative to the top container rather than the body */
     background-color: #E7F6F2;
     position: relative;
     padding-top: 100px;
     margin-bottom: 20px;
-}
-
-.mid-container {
-
 }
 
 .bottom-container {
@@ -120,10 +124,10 @@ th {
 
 .mountain {
     position: relative;
-    width: 500px;
-    height: 400px;
-    top: 10px;
+    margin: 0 auto;
     z-index: 2;
+    object-fit: contain;
+    top: 10px;
 }
 
 
@@ -246,6 +250,7 @@ th {
     .outro {
         width: 75%;
     }
+
 }
 
 @media only screen and (max-width: 1280px) {
