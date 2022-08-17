@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    /* Dynamic Font Size Using 'rem'. Rem is not affected by parent classes */
+    font-size: 5.625rem;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h1, h2 {
+    color: #66BFBF;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    margin: auto 10px auto 10px;
+    text-decoration: none;
+  }
+
+h3, a {
+    color: #11999E;
+}
+    
+p {
+    line-height: 2;
+    overflow: hidden;
+}
+
+hr {
+    margin: 75px auto 75px auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 3%;
+    clear: both;
+}
+
+table {
+    border-spacing: 0;
+}
+
+
+tbody {
+    text-align: left;
+}
+
+td {
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+th {
+    padding-bottom: 5px;
+}
+
+.top-container {
+    /* make images relative to the top container rather than the body */
+    background-color: #E7F6F2;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.mid-container {
+
+}
+
+.bottom-container {
+    position: relative;
+    margin: 100px auto auto auto;
+    background-color: #E7F6F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.intro {
+    width: 25%;
+    margin: auto;
+}
+
+.outro {
+    width: 50%;
+    margin: auto;
+}
+
+.pro-text {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 150px;
+        bottom: 200px;
+        z-index: 0;
+    }
+
+.top-cloud {
+    position: absolute; 
+    width: 150px;
+    height: 150px;
+    right: 150px;
+    top: 30px;
+}
+
+.mountain {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    z-index: 2;
+    top: 10px;
+    object-fit: contain;
+}
+
+
+.skills-gifs {
+    height: 200px;
+    width: 200px;
+    border: 2px dashed;
+    border-radius: 100%;
+    margin: 0;
+}
+
+.skills-gifs:hover {
+    opacity: 0.8;
+    transition: 0.8s;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.clock {
+    margin-top: 25px;
+    height: 150px;
+    width: 150px;
+}
+
+.units {
+    margin-top: 75px;
+}
+
+.contact-me {
+    margin: 25px auto 75px auto;
+    width: 75%;
+  }
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.button {
+    margin-top: 20px;
+    width: 140px;
+    height: 45px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+.button:hover {
+    background-color: #66BFBF;
+    box-shadow: 0px 15px 20px rgba(144, 224, 239, 0.5);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+
+.copyright {
+    font-size: 0.75rem;
+    margin-top: 50px;
+  }
+
+#programming-gif {
+    float: left;
+    margin-right: 30px;
+}
+
+#cs-gif {
+    float: right;
+    margin-left: 30px;
+}
+
+#music-gif {
+    float: left;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    td {
+        text-align: center;
+        padding: 10px ;
+        border: 1px solid;
+        border-style: dashed;
+        color: #66BFBF;
+        transform: scale(0.9);
+    }
+
+    .skill-row {
+        text-align: center;
+    }
+
+    #programming-gif, #cs-gif, #music-gif {
+        float: none;
+        margin: 0  auto;
+    }
+
+    .bottom-cloud {
+        opacity: 0;
+        transition: 1.5s;
+    }
+
+    .intro {
+        width: 50%;
+    }
+
+    .outro {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .skill-row {
+        width: 75%;
+    }
+}
+
