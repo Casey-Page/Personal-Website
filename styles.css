@@ -122,10 +122,9 @@ img {
 }
 
 .mountain {
-    position: relative;
+    margin: 0 auto;
     z-index: 2;
     object-fit: contain;
-    top:10px;
     overflow: hidden;
 }
 
@@ -248,10 +247,6 @@ img {
 
     .outro {
         width: 75%;
-    }
-
-    .mountain {
-        display: none;
     }
 
 }
