@@ -126,6 +126,7 @@ img {
     z-index: 2;
     object-fit: contain;
     top:10px;
+    overflow: hidden;
 }
 
 
@@ -249,13 +250,10 @@ img {
         width: 75%;
     }
 
-}
-
-@media only screen and (max-width: 400px) {
     .mountain {
-        width: 50%;
-        height: 50%;
+        display: none;
     }
+
 }
 
 @media only screen and (max-width: 1280px) {
