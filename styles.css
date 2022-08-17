@@ -125,6 +125,7 @@ img {
 }
 
 .mountain {
+    position: relative;
     width: 500px;
     height: 400px;
     z-index: 2;
@@ -251,6 +252,11 @@ img {
 
     .outro {
         width: 75%;
+    }
+
+    .mountain {
+        width: 400x;
+        height: 300px;
     }
 }
 
