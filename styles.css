@@ -123,6 +123,9 @@ img {
     top: 30px;
 }
 
+.mountain {
+    display: none;
+}
 
 .skills-gifs {
     height: 200px;
