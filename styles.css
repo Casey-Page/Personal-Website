@@ -67,6 +67,12 @@ th {
     padding-bottom: 5px;
 }
 
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
 .top-container {
     /* make images relative to the top container rather than the body */
     background-color: #E7F6F2;
@@ -228,11 +234,6 @@ th {
 
     .skill-row {
         text-align: center;
-    }
-
-    .mountain {
-        width: 350px;
-        height: 250px;
     }
 
     #programming-gif, #cs-gif, #music-gif {
