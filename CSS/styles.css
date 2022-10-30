@@ -36,6 +36,10 @@ a {
 h3, a {
     color: #11999E;
 }
+
+h1, h2, h3, span {
+    user-select: none;
+}
     
 p {
     line-height: 2;
